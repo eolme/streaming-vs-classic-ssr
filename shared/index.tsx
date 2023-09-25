@@ -37,6 +37,6 @@ export async function generateArticle(id: string) {
         title: ipsum.generateWords(10),
         content: ipsum.generateParagraphs(10)
       });
-    }, Math.max(2000 * Math.random(), 500));
+    }, Math.max(1000 * Math.random(), 200));
   });
 }
