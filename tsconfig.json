@@ -32,14 +32,14 @@
   },
   "include": [
     "./next-env.d.ts",
-    "./.next/types/**/*.ts",
     "./next.config.js",
     "./app/**/*.ts",
     "./app/**/*.tsx",
     "./pages/**/*.ts",
     "./pages/**/*.tsx",
     "./shared/**/*.ts",
-    "./shared/**/*.tsx"
+    "./shared/**/*.tsx",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

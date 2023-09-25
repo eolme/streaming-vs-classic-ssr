@@ -2,10 +2,6 @@
 
 import { Article, generateId } from '#/shared';
 
-export const runtime = 'edge';
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
 export default async function StreamingBatchPage({
   params
 }: { params: { count: string }}) {

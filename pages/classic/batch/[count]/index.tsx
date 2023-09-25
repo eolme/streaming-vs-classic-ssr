@@ -3,10 +3,6 @@ import type { ArticleModel } from '#/shared';
 
 import { Article, generateId } from '#/shared';
 
-export const runtime = 'nodejs';
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
-
 export const getServerSideProps = (async (context: GetServerSidePropsContext) => {
   const params = Object.assign({
     count: '1'
