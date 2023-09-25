@@ -2,6 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "trailingSlash": true,
   "framework": "nextjs",
-  "installCommand": "node ./.yarn/releases/yarn-3.6.3.cjs install",
+  "installCommand": "node ./.yarn/releases/yarn-3.6.3.cjs install --immutable --immutable-cache",
   "buildCommand": "next build"
 }
