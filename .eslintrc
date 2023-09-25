@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "extends": [
+    "@mntm",
+    "plugin:@next/next/recommended"
+  ],
+  "plugins": [
+    "@next/next"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "."
+  },
+  "rules": {
+    "func-style": 0
+  }
+}

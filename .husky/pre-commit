@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn run eslint "{app,pages,shared}/**/*.{js,jsx,ts,tsx}" --cache --fix
